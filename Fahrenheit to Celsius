@@ -1,0 +1,8 @@
+s=int(input())
+e=int(input())
+w=int(input())
+currentF = s
+while currentF<=e:
+    c=(5/9)*(currentF - 32)
+    print(str(currentF) + "\t" + str(int(c)))
+    currentF+=w
